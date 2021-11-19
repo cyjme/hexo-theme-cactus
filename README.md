@@ -121,7 +121,7 @@ nav:
 
 ### Blog posts list on home page
 
-You have two options for the list of blog posts on the home page:
+You have three options for the list of blog posts on the home page:
 
   - Show only the 5 most recent posts (default)
 
@@ -136,6 +136,15 @@ You have two options for the list of blog posts on the home page:
     ```yml
     posts_overview:
       show_all_posts: true
+    ```
+
+  - Show read more link
+
+    ```yml
+    posts_overview:
+      show_read_more: false
+      show_all_posts: false
+      post_count: 5
     ```
 
 
